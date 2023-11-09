@@ -87,7 +87,7 @@ export default function Profile() {
   };
   useEffect(() => {
     fetchTweets();
-  }, [tweets]);
+  });
   return (
     <Wrapper>
       <AvatarUpload htmlFor='avatar'>
